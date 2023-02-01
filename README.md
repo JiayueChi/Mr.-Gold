@@ -1,6 +1,6 @@
 To run the programme -> run "run Mr.Gold" (Unix Executable file, won't run on Windows natively)
 
-Written in C#
+Written in C#                                                                                                                
 Source code is in the "SourceCode" folder. -> SourceCode/Program.cs
 
 The programme generates a 2d array that is "centrally dense". The array has a size of 10*10 and holds a random value at a random location, and this is going to be the greatest value of the array. The values get smaller when it gets further away from the location("centre") holding the biggest value. The deduction of each "layer" away from the "centre" location is random but within a range. (See source code method "Generate()")
